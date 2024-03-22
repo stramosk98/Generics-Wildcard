@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Wildcard {
 
-	public double media(List<? super Number> lista) {
+	public double media(List<? extends Number> lista) {
 		double avg = 0;
 		Double val = null;
 		for(Object e : lista) {
